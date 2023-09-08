@@ -1,0 +1,13 @@
+{
+  "name": "eslint-config-grisaia",
+  "version": "1.0.0",
+  "description": "Strict eslint configuration we use on our daily basis.",
+  "scripts": {
+  },
+  "author": {
+    "name": "Liakhovskyi Vladyslav",
+    "email": "vlad@rusted-labs.org",
+    "url": "https://github.com/rusted-love"
+  },
+  "license": "MIT"
+}
