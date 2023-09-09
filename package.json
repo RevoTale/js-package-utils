@@ -5,7 +5,9 @@
   "scripts": {
     "postpublish": "git push && git push --tags",
     "changeset:version": "changeset version && git add --all",
-    "changeset:publish": "changeset publish"
+    "changeset:publish": "changeset publish",
+    "test": "",
+    "lint": ""
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.1"
