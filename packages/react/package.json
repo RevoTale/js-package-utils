@@ -15,7 +15,9 @@
     ".": "./index.js"
   },
   "publishConfig": {
-    "provenance": true
+    "provenance": true,
+    "access": "public"
+
   },
   "dependencies": {
   }

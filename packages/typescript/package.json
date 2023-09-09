@@ -16,7 +16,8 @@
     ".": "./index.js"
   },
   "publishConfig": {
-    "provenance": true
+    "provenance": true,
+    "access": "public"
   },
   "dependencies": {
     "changeset": "^0.2.6"
