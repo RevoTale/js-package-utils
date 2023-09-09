@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Liakhovskyi Vladyslav",
+    "email": "vlad@rusted-labs.org",
+    "url": "https://github.com/rusted-love"
+  },
+  "name": "eslint-config-grisaia-typescript",
+  "main": "index.js",
+  "license": "MIT"
+}
