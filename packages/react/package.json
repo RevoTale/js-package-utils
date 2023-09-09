@@ -6,5 +6,16 @@
   },
   "name": "eslint-config-grisaia-react",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "private": false,
+  "sideEffects": false,
+  "exports": {
+    "./package.json": "./package.json",
+    ".": "./index.js"
+  },
+  "publishConfig": {
+    "provenance": true
+  },
+  "dependencies": {
+  }
 }
