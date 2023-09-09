@@ -4,6 +4,8 @@
     "email": "vlad@rusted-labs.org",
     "url": "https://github.com/rusted-love"
   },
+  "version": "0.0.1",
+
   "name": "eslint-config-grisaia-typescript",
   "main": "index.js",
   "license": "MIT",
