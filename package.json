@@ -12,6 +12,13 @@
   "devDependencies": {
     "@changesets/cli": "^2.26.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RustedLabs/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RustedLabs/eslint-config/issues"
+  },
   "author": {
     "name": "Liakhovskyi Vladyslav",
     "email": "vlad@rusted-labs.org",
