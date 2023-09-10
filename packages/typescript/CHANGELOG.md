@@ -1,5 +1,11 @@
 # eslint-config-grisaia-typescript
 
+## 0.5.0
+
+### Minor Changes
+
+- e2e80b8: Fix npm repository link for all packages
+
 ## 0.4.0
 
 ### Minor Changes
