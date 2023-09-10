@@ -1,12 +1,15 @@
-export default {
+import { Linter} from "eslint";
+
+const config: Linter.Config = {
     "parserOptions": {
         "ecmaVersion": 2019,
         "sourceType": "module",
+        "ecmaFeatures": {
+            "modules": true,
+            "jsx": true
+        },
     },
-    "ecmaFeatures": {
-        "modules": true,
-        "jsx": true
-    },
+
     "settings": {
         "react": {
             "version": "detect"
@@ -16,7 +19,13 @@ export default {
         "plugin:@typescript-eslint/recommended",
         "plugin:react/recommended"
     ],
-    "files": ["*.tsx"],
+
+    "overrides": [
+        {
+            "files": ["*.tsx"],
+            "excludedFiles": "*.test.tsx",
+        }
+    ],
     "plugins": ["react-hooks"],
     "rules": {
         "@typescript-eslint/ban-types": [
@@ -64,3 +73,4 @@ export default {
     }
 
 }
+export default config

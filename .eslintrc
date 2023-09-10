@@ -3,9 +3,12 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended"
   ],
+
   "parserOptions": {
     "ecmaVersion": 2019,
     "sourceType": "module",
+    "project": ["./packages/react/tsconfig.json", ",./packages/react/tsconfig.json"],
+    "tsconfigRootDir":"./",
     "env": {
       "node": true
     }
