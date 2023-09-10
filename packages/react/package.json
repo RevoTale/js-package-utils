@@ -4,7 +4,7 @@
     "email": "vlad@rusted-labs.org",
     "url": "https://github.com/rusted-love"
   },
-  "version": "0.3.0",
+  "version": "0.4.0",
   "name": "eslint-config-grisaia-react",
   "main": "index.js",
   "license": "MIT",
