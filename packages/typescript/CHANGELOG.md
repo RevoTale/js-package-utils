@@ -1,5 +1,11 @@
 # eslint-config-grisaia-typescript
 
+## 0.3.0
+
+### Minor Changes
+
+- 848df0a: Fix provenance by allowing id-token write
+
 ## 0.2.0
 
 ### Minor Changes
