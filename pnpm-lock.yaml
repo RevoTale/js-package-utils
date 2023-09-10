@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
     devDependencies:
       '@changesets/cli':
         specifier: ^2.26.1

@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     "parserOptions": {
         "ecmaVersion": 2019,
         "sourceType": "module",
