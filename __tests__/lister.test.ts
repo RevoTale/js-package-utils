@@ -14,10 +14,11 @@ describe("General test",()=>{
        const result =await getFile("./sources/example_1.ts")
         expect(result).toHaveLength(1)
         const [item] =result
+        console.log(item.messages[0].message)
         expect(item.errorCount).toBe(0)
         expect(item.warningCount).toBe(0)
     })
-    test("typescript nice file",async ()=>{
+    test("typescript bad file",async ()=>{
         const result =await getFile("./sources/bad_example.ts")
         expect(result).toHaveLength(1)
         const [item] =result

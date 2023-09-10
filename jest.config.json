@@ -2,9 +2,9 @@
   "preset": "ts-jest",
   "testMatch": ["**/__tests__/?(*.)(spec|test).(ts|jsx)?(x)"],
   "testEnvironment": "node",
-  "globals": {
-    "ts-jest": {
-      "tsConfig":  "./__tests__/tsconfig.json"
-    }
+  "transform": {
+    "^.+\\.tsx?$": ["ts-jest", {
+      "tsconfig": "tsconfig.json"
+    }]
   }
 }
