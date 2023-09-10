@@ -16,15 +16,8 @@ jobs:
     timeout-minutes: 15
     strategy:
       matrix:
+        eslint_version: [7.32.0, 8.2.0]
         include:
-          - node-version: 16
-            os: ubuntu-latest
-          - node-version: 16
-            os: windows-latest
-          - node-version: 16
-            os: macOS-latest
-          - node-version: 18
-            os: ubuntu-latest
           - node-version: 20
             os: ubuntu-latest
     steps:
@@ -35,6 +28,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+      - run: pnpm install eslint@${{ matrix.eslint_version }}
       - run: pnpm test
         env:
           CI: true
