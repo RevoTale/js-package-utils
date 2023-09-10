@@ -18,6 +18,10 @@
     "provenance": true,
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RustedLabs/eslint-config.git"
+  },
   "dependencies": {
     "changeset": "^0.2.6"
   }
