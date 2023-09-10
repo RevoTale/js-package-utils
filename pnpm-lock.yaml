@@ -12,7 +12,7 @@ importers:
         specifier: ^2.26.2
         version: 2.26.2
       eslint:
-        specifier: ^8.49.0
+        specifier: ^7.32.0 || ^8.2.0
         version: 8.49.0
 
   packages/react:
