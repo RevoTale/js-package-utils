@@ -1,4 +1,4 @@
-const Bad_example = ()=>{
+function Bad_example(){
     return "";
 }
 Bad_example()

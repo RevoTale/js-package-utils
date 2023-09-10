@@ -12,12 +12,7 @@ const config: Linter.Config = {
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
     ],
     "rules": {
-        "no-console": [
-            "error",
-            {
-                "allow": ["warn", "error"]
-            }
-        ],
+        "semi": ["error", "never"],
         "no-else-return": "error",
         "no-empty-function": "error",
         "no-lonely-if": "error",
@@ -36,7 +31,6 @@ const config: Linter.Config = {
                 "allowArrowFunctions": true
             }
         ],
-        "es5/no-typeof-symbol": "error",
         "no-unused-vars": [
             "warn",
             {

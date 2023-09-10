@@ -14,7 +14,6 @@ describe("General test",()=>{
        const result =await getFile("./sources/example_1.ts")
         expect(result).toHaveLength(1)
         const [item] =result
-        console.log(item.messages[0].message)
         expect(item.errorCount).toBe(0)
         expect(item.warningCount).toBe(0)
     })
@@ -22,7 +21,9 @@ describe("General test",()=>{
         const result =await getFile("./sources/bad_example.ts")
         expect(result).toHaveLength(1)
         const [item] =result
-        expect(item.errorCount).toBe(1)
+        console.log(item.messages)
+        expect(item.messages.map(message=>message.message)).toStrictEqual(['Expected a function expression.','Extra semicolon.'])
+        expect(item.errorCount).toBe(2)
         expect(item.warningCount).toBe(0)
     })
 })
