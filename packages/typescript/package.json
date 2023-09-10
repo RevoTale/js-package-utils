@@ -12,7 +12,7 @@
   "sideEffects": false,
   "exports": {
     "./package.json": "./package.json",
-    ".": "./index.js"
+    "./index.js": "./index.js"
   },
   "publishConfig": {
     "provenance": true,
@@ -22,7 +22,8 @@
     "type": "git",
     "url": "git+https://github.com/RustedLabs/eslint-config.git"
   },
-  "dependencies": {
-    "changeset": "^0.2.6"
+  "peerDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.6.0"
   }
 }
