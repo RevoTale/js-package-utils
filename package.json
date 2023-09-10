@@ -10,8 +10,8 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@changesets/cli": "^2.26.1",
-    "eslint": "^8.49.0"
+    "@changesets/cli": "^2.26.2",
+    "eslint": "^7.32.0 || ^8.2.0"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,5 @@
     "url": "https://github.com/rusted-love"
   },
   "packageManager": "pnpm@8.6.2",
-  "license": "MIT",
-  "dependencies": {
-  }
+  "license": "MIT"
 }
