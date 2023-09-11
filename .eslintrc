@@ -1,14 +1,18 @@
 {
   "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/eslint-recommended"
+    "standard",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
   ],
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "ignorePatterns": [ "/__tests__/sources/**","**/dist/**"],
 
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "ecmaVersion": 2019,
+    "ecmaVersion": 2022,
     "sourceType": "module",
-    "project": ["./tsconfig.json"],
-    "tsconfigRootDir":"./",
     "env": {
       "node": true
     }
