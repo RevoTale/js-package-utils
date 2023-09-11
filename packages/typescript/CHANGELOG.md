@@ -1,5 +1,11 @@
 # eslint-config-grisaia-typescript
 
+## 0.6.3
+
+### Patch Changes
+
+- 68e6856: fix a build script do not run before release
+
 ## 0.6.2
 
 ### Patch Changes
