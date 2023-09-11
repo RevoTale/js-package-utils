@@ -16,7 +16,7 @@ jobs:
     timeout-minutes: 15
     strategy:
       matrix:
-        eslint_version: [ 8.44.2]
+        eslint_version: [ 8.49.0]
         include:
           - node-version: 20
             os: ubuntu-latest
