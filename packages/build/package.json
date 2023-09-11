@@ -9,6 +9,9 @@
     "url": "https://github.com/rusted-love"
   },
   "main": "src/index.ts",
+  "scripts": {
+    "build": "bun ./src/index.ts . && tsc"
+  },
   "publishConfig": {
     "provenance": true,
     "access": "public",

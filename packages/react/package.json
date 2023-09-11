@@ -33,7 +33,7 @@
   },
   "type": "module",
   "scripts": {
-    "build": "bun ../build/index.ts . && tsc",
+    "build": "bun ../build/src/index.ts . && tsc",
     "types:check": "tsc --noEmit"
   },
   "devDependencies": {

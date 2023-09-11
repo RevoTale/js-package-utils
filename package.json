@@ -8,7 +8,8 @@
     "changeset:publish": "changeset publish",
     "test": "jest --no-watchman && pnpm run lint",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "build": "pnpm --filter=eslint-config-grisaia-react --filter=eslint-config-grisaia-typescript --filter=grisaia-package-builder build"
   },
   "type": "module",
   "devDependencies": {
