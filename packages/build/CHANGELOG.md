@@ -1,5 +1,11 @@
 # grisaia-package-builder
 
+## 0.1.3
+
+### Patch Changes
+
+- 68e6856: fix a build script do not run before release
+
 ## 0.1.2
 
 ### Patch Changes
