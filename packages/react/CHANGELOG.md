@@ -1,5 +1,21 @@
 # eslint-config-grisaia-react
 
+## 0.6.0
+
+### Minor Changes
+
+- e45ace0: Minimum supported eslint version 8.44.2
+
+### Patch Changes
+
+- 037dffb: Fix missing dependencies
+- 7d8262c: Use typescript + esbuild + jest to make configs safe to use. Make shared package `grisaia-package-builder` that handle headache of configuring build process for each package. It will be used by all new packages in future.
+- 254856a: Add linter
+- 4b98a64: Do not allow release without passing Test stage.
+- bd94a3b: Fix eslint configuration for monorepo
+- 2fa0a77: Fix eslint env. Add licence.
+- 7aa3471: Fix eslint version
+
 ## 0.5.0
 
 ### Minor Changes
