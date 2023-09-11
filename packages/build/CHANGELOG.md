@@ -1,5 +1,12 @@
 # grisaia-package-builder
 
+## 0.1.1
+
+### Patch Changes
+
+- 6a592cd: Add licence
+- 3673e42: Fix build output.
+
 ## 0.1.0
 
 ### Minor Changes

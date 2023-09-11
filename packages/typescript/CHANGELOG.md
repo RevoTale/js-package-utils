@@ -1,5 +1,11 @@
 # eslint-config-grisaia-typescript
 
+## 0.6.1
+
+### Patch Changes
+
+- 3673e42: Fix build output.
+
 ## 0.6.0
 
 ### Minor Changes
