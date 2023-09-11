@@ -7,7 +7,8 @@
     "changeset:version": "changeset version && git add --all",
     "changeset:publish": "changeset publish",
     "test": "jest --no-watchman && pnpm run lint && pnpm run types:check",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "type": "module",
   "devDependencies": {

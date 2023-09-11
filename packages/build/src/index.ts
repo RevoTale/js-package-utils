@@ -1,6 +1,6 @@
 import { build, BuildOptions } from 'esbuild'
 import { isAbsolute, dirname, resolve } from 'path'
-import { argv, cwd ,exit} from 'process'
+import { argv, cwd, exit } from 'process'
 import { rimrafSync } from 'rimraf'
 import { globSync } from 'glob'
 import { copyFileSync, existsSync, mkdirSync, readFileSync } from 'fs'
