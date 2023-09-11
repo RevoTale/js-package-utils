@@ -6,17 +6,19 @@
   },
   "version": "0.5.0",
   "name": "eslint-config-grisaia-typescript",
-  "main": "index.js",
+  "main": "src/index.ts",
   "license": "MIT",
   "private": false,
   "sideEffects": false,
-  "exports": {
-    "./package.json": "./package.json",
-    "./index.js": "./index.js"
-  },
+
   "publishConfig": {
     "provenance": true,
-    "access": "public"
+    "access": "public",
+    "main": "index.js",
+    "exports": {
+      "./package.json": "./package.json",
+      ".": "./index.js"
+    }
   },
   "type": "module",
   "scripts": {

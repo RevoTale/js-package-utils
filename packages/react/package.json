@@ -6,17 +6,18 @@
   },
   "version": "0.5.0",
   "name": "eslint-config-grisaia-react",
-  "main": "index.js",
+  "main": "src/index.ts",
   "license": "MIT",
   "private": false,
   "sideEffects": false,
-  "exports": {
-    "./package.json": "./package.json",
-    "./index.js": "./index.js"
-  },
   "publishConfig": {
     "provenance": true,
-    "access": "public"
+    "access": "public",
+    "main": "index.js",
+    "exports": {
+      "./package.json": "./package.json",
+      ".": "./index.js"
+    }
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "eslint-plugin-react": "^7.33.1",
     "eslint-plugin-react-hooks": "^4.6.0"
   },
+
   "type": "module",
 
   "scripts": {

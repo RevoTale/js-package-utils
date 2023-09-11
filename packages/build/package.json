@@ -8,5 +8,24 @@
     "name": "Liakhovskyi Vladyslav",
     "email": "vlad@rusted-labs.org",
     "url": "https://github.com/rusted-love"
+  },
+  "main": "src/index.ts",
+  "publishConfig": {
+    "provenance": true,
+    "access": "public",
+    "main": "index.js",
+    "exports": {
+      "./package.json": "./package.json",
+      ".": "./index.js"
+    }
+  },
+  "private": false,
+  "sideEffects": false,
+  "bugs": {
+    "url": "https://github.com/RustedLabs/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RustedLabs/eslint-config.git"
   }
 }

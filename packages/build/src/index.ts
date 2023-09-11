@@ -50,7 +50,7 @@ export const builder = async (configPath: string, config: Config) => {
     bundle: false,
     minify: true,
     platform: 'neutral',
-    outdir: `${outDir}/lib/`,
+    outdir: outDir,
 
     treeShaking: true,
     sourcemap: true
