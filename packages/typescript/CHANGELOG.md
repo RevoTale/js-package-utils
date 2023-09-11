@@ -1,5 +1,11 @@
 # eslint-config-grisaia-typescript
 
+## 0.6.2
+
+### Patch Changes
+
+- 2070b54: Fix wrong directory released.
+
 ## 0.6.1
 
 ### Patch Changes

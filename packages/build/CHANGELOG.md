@@ -1,5 +1,11 @@
 # grisaia-package-builder
 
+## 0.1.2
+
+### Patch Changes
+
+- 2070b54: Fix wrong directory released.
+
 ## 0.1.1
 
 ### Patch Changes
