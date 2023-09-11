@@ -1,8 +1,7 @@
 {
   "name": "grisaia-package-builder",
-  "version": "0.0.1",
-  "dependencies": {
-  },
+  "version": "0.1.0",
+  "dependencies": {},
   "type": "module",
   "author": {
     "name": "Liakhovskyi Vladyslav",
