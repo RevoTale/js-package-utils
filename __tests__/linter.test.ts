@@ -1,6 +1,6 @@
 import {ESLint} from 'eslint'
 import {resolve} from "path";
-import typescriptConfig from '../packages/typescript'
+import typescriptConfig from '../packages/typescript/src'
 describe("General test",()=>{
     const lint = new ESLint(
         {
@@ -21,7 +21,6 @@ describe("General test",()=>{
         const result =await getFile("./sources/bad_example.ts")
         expect(result).toHaveLength(1)
         const [item] =result
-        console.log(item.messages)
         expect(item.messages.map(message=>message.message)).toStrictEqual(['Expected a function expression.','Extra semicolon.'])
         expect(item.errorCount).toBe(2)
         expect(item.warningCount).toBe(0)

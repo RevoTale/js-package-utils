@@ -1,0 +1,12 @@
+{
+  "name": "grisaia-package-builder",
+  "version": "0.0.1",
+  "dependencies": {
+  },
+  "type": "module",
+  "author": {
+    "name": "Liakhovskyi Vladyslav",
+    "email": "vlad@rusted-labs.org",
+    "url": "https://github.com/rusted-love"
+  }
+}

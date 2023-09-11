@@ -1,8 +1,10 @@
 {
   "extends": "../../tsconfig.base.json",
-  "compilerOptions": {
-    "outDir": "./dist/lib",
-  },
   "exclude": ["node_modules", "**/__tests__/*", "dist"],
+  "compilerOptions": {
+    "outDir": "dist/lib",
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+  },
   "include": ["src"]
 }
