@@ -1,5 +1,11 @@
 # eslint-config-grisaia-react
 
+## 0.6.4
+
+### Patch Changes
+
+- 3f5b775: Fix packages cannot be released.
+
 ## 0.6.3
 
 ### Patch Changes
