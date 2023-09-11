@@ -46,7 +46,8 @@ importers:
         specifier: ^29.1.1
         version: 29.1.1(@babel/core@7.22.17)(esbuild@0.19.2)(jest@29.6.4)(typescript@5.2.2)
 
-  packages/build: {}
+  packages/build:
+    publishDirectory: dist
 
   packages/react:
     dependencies:
@@ -72,6 +73,7 @@ importers:
       '@types/eslint':
         specifier: ^8.44.2
         version: 8.44.2
+    publishDirectory: dist
 
   packages/typescript:
     dependencies:
@@ -85,6 +87,7 @@ importers:
       '@types/eslint':
         specifier: ^8.44.2
         version: 8.44.2
+    publishDirectory: dist
 
 packages:
 
