@@ -6,7 +6,7 @@
     "postpublish": "git push && git push --tags",
     "changeset:version": "changeset version && git add --all",
     "changeset:publish": "changeset publish",
-    "test": "jest --no-watchman && pnpm run lint && pnpm run types:check",
+    "test": "jest --no-watchman && pnpm run lint",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },

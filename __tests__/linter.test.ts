@@ -4,8 +4,15 @@ import typescriptConfig from '../packages/typescript/src'
 describe('General test', () => {
   const lint = new ESLint(
     {
-      cwd: resolve(__dirname, '../'),
-      baseConfig: typescriptConfig
+      cwd: resolve(__dirname, './sources'),
+      baseConfig: {
+        parserOptions: {
+          project: './tsconfig.json'
+        }
+
+      },
+      overrideConfig: typescriptConfig,
+      useEslintrc: false
 
     }
   )
