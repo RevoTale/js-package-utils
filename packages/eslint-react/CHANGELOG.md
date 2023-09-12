@@ -1,5 +1,11 @@
 # eslint-config-grisaia-react
 
+## 0.6.6
+
+### Patch Changes
+
+- e20f4c0: Monorepo renamed to js-package-utils
+
 ## 0.6.5
 
 ### Patch Changes
