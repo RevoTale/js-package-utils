@@ -27,8 +27,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: pnpm
-      - run: pnpm install --frozen-lockfile
-      - run: pnpm install -w eslint@${{ matrix.eslint_version }}
+      - run: pnpm i --frozen-lockfile
+      - run: pnpm i -w eslint@${{ matrix.eslint_version }}
       - run: pnpm test
         env:
           CI: true
