@@ -1,5 +1,11 @@
 # eslint-config-grisaia-react
 
+## 0.6.5
+
+### Patch Changes
+
+- 28e4a67: Fix exports during convertion esm to commonjs
+
 ## 0.6.4
 
 ### Patch Changes
