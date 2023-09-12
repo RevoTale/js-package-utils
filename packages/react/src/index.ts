@@ -73,4 +73,5 @@ const config: Linter.Config = {
   }
 
 }
-export default config
+const { parserOptions, settings, extends: s, overrides, plugins, rules } = config
+export { parserOptions, settings, s as extends, overrides, plugins, rules }

@@ -1,6 +1,6 @@
 import { ESLint } from 'eslint'
 import { resolve } from 'path'
-import typescriptConfig from '../packages/typescript/src'
+import * as typescriptConfig from '../packages/typescript/src'
 describe('General test', () => {
   const lint = new ESLint(
     {
