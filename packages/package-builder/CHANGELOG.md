@@ -1,5 +1,11 @@
 # grisaia-package-builder
 
+## 0.1.6
+
+### Patch Changes
+
+- e28aab5: Speed up CI execution time
+
 ## 0.1.5
 
 ### Patch Changes

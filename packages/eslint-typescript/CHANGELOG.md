@@ -1,5 +1,11 @@
 # eslint-config-grisaia-typescript
 
+## 0.6.7
+
+### Patch Changes
+
+- e28aab5: Speed up CI execution time
+
 ## 0.6.6
 
 ### Patch Changes
