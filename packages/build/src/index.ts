@@ -10,6 +10,7 @@ const target = ['chrome64', 'edge79', 'firefox67', 'node16', 'safari11']
 type Config = {
     outDir?: string
     paths: string[]
+  sourcemap?:boolean
 }
 const filesToCopy = [
 
@@ -22,6 +23,7 @@ export const builder = async (configPath: string, config: Config) => {
   console.log(`Run builder. Project ${projectRoot}`)
 
   const outDir = resolve(projectRoot, config.outDir ?? './dist')
+  const { sourcemap = false } = config
   rimrafSync(outDir)
   console.log('Clearing up output dir.')
   if (!existsSync(outDir)) {
@@ -53,7 +55,7 @@ export const builder = async (configPath: string, config: Config) => {
     outdir: outDir,
 
     treeShaking: true,
-    sourcemap: true
+    sourcemap
   }
   const handleBuild = async () => {
     const esmBuild = build({
