@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-grisaia",
-  "description": "A set of utilities",
+  "description": "A set of utilities to reduce config size for other packages.",
   "scripts": {
     "postpublish": "git push && git push --tags",
     "changeset:version": "changeset version && git add --all",
     "changeset:publish": "changeset publish",
-    "test": "jest --no-watchman && pnpm run lint",
+    "test": "jest --no-watchman",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepare": "pnpm build",
