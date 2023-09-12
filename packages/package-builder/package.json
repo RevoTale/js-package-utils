@@ -29,10 +29,10 @@
   "private": false,
   "sideEffects": false,
   "bugs": {
-    "url": "https://github.com/RustedLabs/eslint-config/issues"
+    "url": "https://github.com/RustedLabs/js-package-utils/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RustedLabs/eslint-config.git"
+    "url": "git+https://github.com/RustedLabs/js-package-utils.git"
   }
 }
