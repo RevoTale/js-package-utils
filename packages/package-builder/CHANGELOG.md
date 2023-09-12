@@ -1,5 +1,12 @@
 # grisaia-package-builder
 
+## 0.1.5
+
+### Patch Changes
+
+- e20f4c0: Monorepo renamed to js-package-utils
+- bd86f46: Make source maps optional
+
 ## 0.1.4
 
 ### Patch Changes
