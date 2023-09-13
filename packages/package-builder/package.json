@@ -1,6 +1,6 @@
 {
   "name": "grisaia-package-builder",
-  "version": "0.1.9",
+  "version": "0.1.8",
   "dependencies": {
     "rimraf": "^5.0.1"
   },
