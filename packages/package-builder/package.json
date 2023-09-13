@@ -10,7 +10,7 @@
   },
   "main": "src/index.ts",
   "scripts": {
-    "build": "bun ./src/index.ts . && tsc"
+    "build": "bun ./src/bin/cli.ts . && tsc"
   },
   "publishConfig": {
     "provenance": true,
@@ -24,7 +24,8 @@
         "require": "./index.cjs",
         "types": "./index.d.ts"
       }
-    }
+    },
+    "bin": "./bin/cli.cjs"
   },
   "private": false,
   "sideEffects": false,

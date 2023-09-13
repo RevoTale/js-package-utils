@@ -1,6 +1,5 @@
 import { build, BuildOptions } from 'esbuild'
 import { isAbsolute, dirname, resolve } from 'path'
-import { argv, cwd, exit } from 'process'
 import { rimrafSync } from 'rimraf'
 import { globSync } from 'glob'
 import { copyFileSync, existsSync, mkdirSync, readFileSync } from 'fs'
@@ -18,7 +17,7 @@ const filesToCopy = [
   'LICENCE',
   'README.md'
 ] as const
-export const builder = async (configPath: string, config: Config) => {
+const builder = async (configPath: string, config: Config) => {
   const projectRoot = dirname(configPath)
   console.log(`Run builder. Project ${projectRoot}`)
 
@@ -82,7 +81,7 @@ export const builder = async (configPath: string, config: Config) => {
   await handleBuild()
 }
 
-const runBundler = async (configPath: string): Promise<void> => {
+const bundlePackage = async (configPath: string): Promise<void> => {
   if (!isAbsolute(configPath)) {
     throw new Error(`Config path ${configPath} is not absolute`)
   }
@@ -97,11 +96,4 @@ const runBundler = async (configPath: string): Promise<void> => {
     throw err
   }
 }
-let [, , dir] = argv
-if (!isAbsolute(dir)) {
-  dir = resolve(cwd(), dir)
-}
-runBundler(resolve(dir, './build.config.json')).catch(err => {
-  console.error(err)
-  exit(1)
-})
+export { bundlePackage }
