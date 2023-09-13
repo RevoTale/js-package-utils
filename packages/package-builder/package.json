@@ -12,7 +12,7 @@
   },
   "main": "src/index.ts",
   "scripts": {
-    "build": "rimraf dist && esbuild bin/cli.ts --platform=node --packages=external --bundle --outdir=dist/bin && cp package.json README.md LICENSE ./dist "
+    "build": "rimraf dist && esbuild bin/cli.ts --platform=node --packages=external --bundle --format=esm --outdir=dist/bin && cp package.json README.md LICENSE ./dist "
   },
   "publishConfig": {
     "provenance": true,
