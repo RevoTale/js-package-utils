@@ -2,7 +2,7 @@
 
 import { isAbsolute, resolve } from 'path'
 import { argv, cwd, exit } from 'process'
-import { bundlePackage } from '../index'
+import { bundlePackage } from '../src/utils'
 
 const runCLI = () => {
   let [, , dir] = argv
