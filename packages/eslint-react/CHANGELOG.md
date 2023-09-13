@@ -1,5 +1,11 @@
 # eslint-config-grisaia-react
 
+## 0.6.11
+
+### Patch Changes
+
+- c2b1b67: Package builder used as binary
+
 ## 0.6.10
 
 ### Patch Changes
