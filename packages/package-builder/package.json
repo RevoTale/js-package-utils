@@ -1,6 +1,6 @@
 {
   "name": "grisaia-package-builder",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "dependencies": {},
   "type": "module",
   "author": {
@@ -25,9 +25,11 @@
         "types": "./index.d.ts"
       }
     },
+
     "bin": {
       "gbuild":  "./bin/cli.cjs"
     }
+
   },
   "private": false,
   "sideEffects": false,

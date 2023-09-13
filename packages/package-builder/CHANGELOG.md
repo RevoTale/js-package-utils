@@ -1,5 +1,11 @@
 # grisaia-package-builder
 
+## 0.1.7
+
+### Patch Changes
+
+- 1d7d921: Fix binary cli
+
 ## 0.1.6
 
 ### Patch Changes
