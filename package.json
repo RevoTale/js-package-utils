@@ -8,7 +8,7 @@
     "test": "jest --no-watchman",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prepare": "pnpm build",
+    "prepublish": "pnpm build",
     "build": "pnpm --filter=grisaia-package-builder build && pnpm --filter=eslint-config-grisaia-react --filter=eslint-config-grisaia-typescript  build"
   },
   "type": "module",
