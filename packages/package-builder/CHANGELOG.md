@@ -4,6 +4,12 @@
 
 ### Patch Changes
 
+- 540371a: Package builder used as binary
+
+## 0.1.9
+
+### Patch Changes
+
 - e766506: Fix binary cli
 - e8f5059: Package builder used as binary
 - e766506: Fix binary alias
