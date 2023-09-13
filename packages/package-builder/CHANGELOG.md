@@ -1,5 +1,11 @@
 # grisaia-package-builder
 
+## 0.1.10
+
+### Patch Changes
+
+- 1613f9f: Fix npm automatically converts binary to commonjs
+
 ## 0.1.9
 
 ### Patch Changes
