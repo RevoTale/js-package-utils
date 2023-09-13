@@ -1,5 +1,12 @@
 # grisaia-package-builder
 
+## 0.1.8
+
+### Patch Changes
+
+- 8797afa: Fix binary cli
+- 8797afa: Fix binary alias
+
 ## 0.1.7
 
 ### Patch Changes
