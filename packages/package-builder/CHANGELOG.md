@@ -1,5 +1,14 @@
 # grisaia-package-builder
 
+## 0.1.9
+
+### Patch Changes
+
+- e766506: Fix binary cli
+- e8f5059: Package builder used as binary
+- e766506: Fix binary alias
+- e766506: Fix dependencies used in binary
+
 ## 0.1.8
 
 ### Patch Changes
