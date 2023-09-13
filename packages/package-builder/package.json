@@ -24,6 +24,9 @@
         "require": "./index.cjs",
         "types": "./index.d.ts"
       }
+    },
+    "bin": {
+      "gbuilder": "./bin/gbuilder.js"
     }
   },
   "private": false,
