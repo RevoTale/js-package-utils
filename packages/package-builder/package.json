@@ -12,20 +12,15 @@
   },
   "main": "src/index.ts",
   "scripts": {
-    "build": "rimraf dist && esbuild bin/cli.ts --platform=node --packages=external --bundle --outdir=dist/bin"
+    "build": "rimraf dist && esbuild bin/cli.ts --platform=node --packages=external --bundle --outdir=dist/bin && cp package.json README.md LICENSE ./dist "
   },
   "publishConfig": {
     "provenance": true,
     "access": "public",
-    "main": "index.js",
+    "main": "bin/cli.js",
     "directory": "dist",
     "exports": {
-      "./package.json": "./package.json",
-      ".": {
-        "import": "./index.js",
-        "require": "./index.cjs",
-        "types": "./index.d.ts"
-      }
+      "./package.json": "./package.json"
     },
     "bin": {
       "gbuild": "./bin/cli.js"
@@ -35,7 +30,7 @@
     "esbuild": "^0.19.2"
   },
   "private": false,
-  "sideEffects": false,
+  "sideEffects": true,
   "bugs": {
     "url": "https://github.com/RustedLabs/js-package-utils/issues"
   },
