@@ -1,5 +1,11 @@
 # eslint-config-grisaia-typescript
 
+## 0.6.8
+
+### Patch Changes
+
+- e8f5059: Package builder used as binary
+
 ## 0.6.7
 
 ### Patch Changes
