@@ -10,7 +10,7 @@
   },
   "main": "src/index.ts",
   "scripts": {
-    "build": "bun ./src/bin/cli.ts . && tsc"
+    "build": "rimraf dist && esbuild bin/cli.ts --platform=node --external:../../node_modules/* --bundle --outdir=dist/bin"
   },
   "publishConfig": {
     "provenance": true,
@@ -26,8 +26,11 @@
       }
     },
     "bin": {
-      "gbuild": "./bin/cli.cjs"
+      "gbuild":  "./bin/cli.js"
     }
+  },
+  "peerDependencies": {
+    "esbuild": "^0.19.2"
   },
   "private": false,
   "sideEffects": false,
