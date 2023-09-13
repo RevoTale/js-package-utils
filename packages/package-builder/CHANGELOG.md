@@ -4,6 +4,12 @@
 
 ### Patch Changes
 
+- 3cc42b9: Package builder used as binary
+
+## 0.1.9
+
+### Patch Changes
+
 - 540371a: Package builder used as binary
 
 ## 0.1.9
