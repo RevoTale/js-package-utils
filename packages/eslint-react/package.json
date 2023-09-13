@@ -38,7 +38,7 @@
   },
   "type": "module",
   "scripts": {
-    "build": "bun ../package-builder/src/index.ts . && tsc",
+    "build": "bun ../package-builder/dist/bin/cli.js . && tsc",
     "types:check": "tsc --noEmit"
   },
   "devDependencies": {
