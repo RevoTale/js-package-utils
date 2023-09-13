@@ -4,6 +4,13 @@
 
 ### Patch Changes
 
+- c2b1b67: Package builder used as binary
+- c2b1b67: Use ESM for cli
+
+## 0.1.9
+
+### Patch Changes
+
 - 3cc42b9: Package builder used as binary
 
 ## 0.1.9
