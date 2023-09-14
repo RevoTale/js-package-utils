@@ -1,5 +1,11 @@
 # eslint-config-grisaia-react
 
+## 0.6.13
+
+### Patch Changes
+
+- 8f1b9a9: fix bundle preparation
+
 ## 0.6.12
 
 ### Patch Changes

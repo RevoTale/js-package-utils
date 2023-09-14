@@ -1,5 +1,11 @@
 # grisaia-package-builder
 
+## 0.1.12
+
+### Patch Changes
+
+- 8f1b9a9: fix bundle preparation
+
 ## 0.1.11
 
 ### Patch Changes
