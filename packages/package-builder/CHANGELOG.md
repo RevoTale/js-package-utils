@@ -1,5 +1,11 @@
 # grisaia-package-builder
 
+## 0.1.11
+
+### Patch Changes
+
+- 5f1fa42: Fix CI `build` script duplicate calls
+
 ## 0.1.10
 
 ### Patch Changes
