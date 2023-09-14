@@ -1,5 +1,11 @@
 # eslint-config-grisaia-react
 
+## 0.6.12
+
+### Patch Changes
+
+- 5f1fa42: Fix CI `build` script duplicate calls
+
 ## 0.6.11
 
 ### Patch Changes

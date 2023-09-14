@@ -1,5 +1,12 @@
 # eslint-config-grisaia-typescript
 
+## 0.6.12
+
+### Patch Changes
+
+- ebd7321: Disable no-unused vars. Typescript replaces it with noUnusedParameters parameter. no-unused-vars rule is very buggy.
+- 5f1fa42: Fix CI `build` script duplicate calls
+
 ## 0.6.11
 
 ### Patch Changes
