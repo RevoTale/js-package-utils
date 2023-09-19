@@ -55,7 +55,7 @@ const builder = async (configPath: string, config: Config) => {
 
     treeShaking: true,
     sourcemap
-  }
+  }// TODO make output compatible with old browsers
   const handleBuild = async () => {
     const esmBuild = build({
       ...shared,
