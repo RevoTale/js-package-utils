@@ -42,7 +42,7 @@
     "types:check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@types/eslint": "^8.44.2"
+    "@types/eslint": "^8.44.3"
   },
   "bugs": {
     "url": "https://github.com/RustedLabs/js-package-utils/issues"

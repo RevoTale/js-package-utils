@@ -14,11 +14,11 @@
   "type": "module",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
-    "@types/eslint": "^8.44.2",
+    "@types/eslint": "^8.44.3",
     "@types/jest": "^29.5.4",
     "@types/node": "^20.6.2",
     "esbuild": "^0.19.3",
-    "eslint": "^8.49.0",
+    "eslint": "^8.50.0",
     "eslint-config-standard": "^17.1.0",
     "glob": "^10.3.4",
     "jest": "^29.7.0",
