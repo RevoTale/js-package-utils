@@ -1,7 +1,7 @@
 {
   "author": {
     "name": "Liakhovskyi Vladyslav",
-    "email": "vlad@rusted-labs.org",
+    "email": "vlad@revotale.com",
     "url": "https://github.com/rusted-love"
   },
   "version": "0.6.13",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RustedLabs/js-package-utils.git"
+    "url": "git+https://github.com/RevoTale/js-package-utils.git"
   },
   "peerDependencies": {
     "eslint": "^8.44.2",
@@ -41,6 +41,6 @@
     "@types/eslint": "^8.44.3"
   },
   "bugs": {
-    "url": "https://github.com/RustedLabs/js-package-utils/issues"
+    "url": "https://github.com/RevoTale/js-package-utils/issues"
   }
 }
