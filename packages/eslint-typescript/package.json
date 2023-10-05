@@ -4,7 +4,7 @@
     "email": "vlad@revotale.com",
     "url": "https://github.com/rusted-love"
   },
-  "version": "0.6.13",
+  "version": "0.6.14",
   "name": "eslint-config-grisaia-typescript",
   "main": "src/index.ts",
   "license": "MIT",

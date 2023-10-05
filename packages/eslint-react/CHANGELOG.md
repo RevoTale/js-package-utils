@@ -1,5 +1,12 @@
 # eslint-config-grisaia-react
 
+## 0.6.14
+
+### Patch Changes
+
+- 18b7032: Organiation renamed.
+- 18b7032: Packages upgraded.
+
 ## 0.6.13
 
 ### Patch Changes
