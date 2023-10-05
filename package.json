@@ -14,17 +14,17 @@
   "type": "module",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
-    "@types/eslint": "^8.44.2",
-    "@types/jest": "^29.5.4",
-    "@types/node": "^20.6.0",
-    "esbuild": "^0.19.2",
-    "eslint": "^8.49.0",
+    "@types/eslint": "^8.44.3",
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.8.0",
+    "esbuild": "^0.19.4",
+    "eslint": "^8.50.0",
     "eslint-config-standard": "^17.1.0",
-    "glob": "^10.3.4",
+    "glob": "^10.3.10",
     "jest": "^29.7.0",
     "rimraf": "^5.0.1",
     "ts-jest": "^29.1.1",
-    "bun": "^1.0.0"
+    "bun": "^1.0.4"
   },
   "repository": {
     "type": "git",
