@@ -1,5 +1,12 @@
 # grisaia-package-builder
 
+## 0.1.13
+
+### Patch Changes
+
+- 18b7032: Organiation renamed.
+- 18b7032: Packages upgraded.
+
 ## 0.1.12
 
 ### Patch Changes
