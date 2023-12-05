@@ -31,9 +31,6 @@ jobs:
   Lint:
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    strategy:
-      matrix:
-        eslint_version: [8.55.0]
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v2.4.0
@@ -41,4 +38,4 @@ jobs:
         with:
           node-version: 20
           cache: pnpm
-      - run: pnpm i && pnpm i -w eslint@${{ matrix.eslint_version }} && pnpm lint
+      - run: pnpm i && pnpm lint
