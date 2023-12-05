@@ -25,7 +25,7 @@ describe('General test', () => {
     expect(item.warningCount).toBe(0)
   })
   test('typescript bad file', async () => {
-    const result = await getFile('./sources/broke_test.ts')
+    const result = await getFile('./sources/bad_example.ts')
     expect(result).toHaveLength(1)
     const [item] = result
     expect(item.messages.map(message => message.message)).toStrictEqual(['Expected a function expression.', 'Extra semicolon.'])
