@@ -29,6 +29,9 @@
   "peerDependencies": {
     "esbuild": "^0.19.2"
   },
+  "devDependencies": {
+    "glob": "^9.0 || ^10.0"
+  },
   "private": false,
   "sideEffects": true,
   "bugs": {
