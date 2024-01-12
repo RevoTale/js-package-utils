@@ -32,9 +32,6 @@ importers:
       eslint-config-standard:
         specifier: ^17.1.0
         version: 17.1.0(eslint-plugin-import@2.29.1)(eslint-plugin-n@16.6.2)(eslint-plugin-promise@6.1.1)(eslint@8.56.0)
-      glob:
-        specifier: ^10.3.10
-        version: 10.3.10
       jest:
         specifier: ^29.7.0
         version: 29.7.0(@types/node@20.11.0)
@@ -96,10 +93,6 @@ importers:
       rimraf:
         specifier: ^5.0.1
         version: 5.0.5
-    devDependencies:
-      glob:
-        specifier: ^10.3.10
-        version: 10.3.10
     publishDirectory: dist
 
 packages:

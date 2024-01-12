@@ -4,7 +4,6 @@
   "dependencies": {
     "rimraf": "^5.0.1",
     "glob": "^10.3.10"
-
   },
   "type": "commonjs",
   "author": {
@@ -39,8 +38,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RevoTale/js-package-utils.git"
-  },
-  "devDependencies": {
-    "glob": "^10.3.10"
   }
 }
