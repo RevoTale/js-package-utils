@@ -1,5 +1,11 @@
 # eslint-config-grisaia-react
 
+## 0.6.15
+
+### Patch Changes
+
+- 1836518: Disable 'react/display-name': 'error',
+
 ## 0.6.14
 
 ### Patch Changes
