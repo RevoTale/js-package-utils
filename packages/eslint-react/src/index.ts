@@ -48,7 +48,7 @@ const config: Linter.Config = {
     'react/no-this-in-sfc': 'error',
     'react/self-closing-comp': 'error',
     'react/button-has-type': 'error',
-    'react/display-name': 'error',
+    'react/display-name': 'off',
     'react/function-component-definition': [
       2,
       {
