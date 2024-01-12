@@ -1,5 +1,12 @@
 # grisaia-package-builder
 
+## 0.1.15
+
+### Patch Changes
+
+- a0d5d9b: Add glob as a prod deps
+- 5513cd4: Fix missing glob
+
 ## 0.1.14
 
 ### Patch Changes
