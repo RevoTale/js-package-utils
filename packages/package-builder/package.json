@@ -2,7 +2,9 @@
   "name": "grisaia-package-builder",
   "version": "0.1.14",
   "dependencies": {
-    "rimraf": "^5.0.1"
+    "rimraf": "^5.0.1",
+    "glob": "^10.3.10"
+
   },
   "type": "commonjs",
   "author": {
