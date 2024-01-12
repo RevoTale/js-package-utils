@@ -1,5 +1,11 @@
 # grisaia-package-builder
 
+## 0.1.14
+
+### Patch Changes
+
+- 848dd9f: Fix missing glob
+
 ## 0.1.13
 
 ### Patch Changes
