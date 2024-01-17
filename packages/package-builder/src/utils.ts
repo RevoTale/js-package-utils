@@ -52,7 +52,7 @@ const builder = async (configPath: string, config: Config) => {
     minify: true,
     platform: 'neutral',
     outdir: outDir,
-
+    drop: ['console', 'debugger'],
     treeShaking: true,
     sourcemap
   }// TODO make output compatible with old browsers
