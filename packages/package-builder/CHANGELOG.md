@@ -1,5 +1,11 @@
 # grisaia-package-builder
 
+## 0.1.16
+
+### Patch Changes
+
+- cc8b302: Drop debugs for build.
+
 ## 0.1.15
 
 ### Patch Changes
