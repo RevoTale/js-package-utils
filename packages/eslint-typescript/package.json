@@ -34,7 +34,7 @@
     "url": "git+https://github.com/RevoTale/js-package-utils.git"
   },
   "peerDependencies": {
-    "eslint": "^8.44.2 || ^9.0.0",
+    "eslint": "^8.44.2",
     "@typescript-eslint/eslint-plugin": "^6.6.0 || ^7.0.0"
   },
   "devDependencies": {
