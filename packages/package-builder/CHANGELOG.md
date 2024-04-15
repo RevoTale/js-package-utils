@@ -1,5 +1,11 @@
 # grisaia-package-builder
 
+## 0.1.17
+
+### Patch Changes
+
+- 527bc3a: Bump dependencies to latest versions.
+
 ## 0.1.16
 
 ### Patch Changes

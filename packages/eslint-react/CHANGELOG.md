@@ -1,5 +1,11 @@
 # eslint-config-grisaia-react
 
+## 0.6.16
+
+### Patch Changes
+
+- 527bc3a: Bump dependencies to latest versions.
+
 ## 0.6.15
 
 ### Patch Changes
