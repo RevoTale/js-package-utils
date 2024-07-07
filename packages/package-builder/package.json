@@ -7,9 +7,9 @@
   },
   "type": "commonjs",
   "author": {
-    "name": "rusted_love",
-    "email": "vlad@revotale.com",
-    "url": "https://github.com/rusted-love"
+    "name": "l-you",
+    "email": "l-you@revotale.com",
+    "url": "https://github.com/l-you"
   },
   "main": "src/index.ts",
   "scripts": {
