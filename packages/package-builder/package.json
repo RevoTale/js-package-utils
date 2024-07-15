@@ -3,7 +3,7 @@
   "version": "0.1.17",
   "dependencies": {
     "rimraf": "^5.0.1",
-    "glob": "^10.3.10"
+    "glob": "^11.0.0"
   },
   "type": "commonjs",
   "author": {
