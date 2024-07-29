@@ -42,7 +42,7 @@
     "types:check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@types/eslint": "^8.44.3"
+    "@types/eslint": "^9.6.0"
   },
   "bugs": {
     "url": "https://github.com/RevoTale/js-package-utils/issues"
