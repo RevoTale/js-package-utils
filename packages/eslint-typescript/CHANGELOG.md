@@ -1,5 +1,11 @@
 # eslint-config-grisaia-typescript
 
+## 0.6.18
+
+### Patch Changes
+
+- f9ee8a0: Fix update versioned wrong package
+
 ## 0.6.16
 
 ### Patch Changes
