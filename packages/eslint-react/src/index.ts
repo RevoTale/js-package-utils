@@ -28,14 +28,14 @@ const config: Linter.Config = {
   ],
   plugins: ['react-hooks'],
   rules: {
-    '@typescript-eslint/ban-types': [
-      'error',
+    "@typescript-eslint/no-restricted-types": [
+      "error",
       {
-        types: {
+        "types": {
+          // add a custom message to help explain why not to use it
           'JSX.Element': '`FunctionComponent` declaration should be used instead of return type `JSX.Element`'
         },
-        extendDefaults: true
-      }
+      },
     ],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
