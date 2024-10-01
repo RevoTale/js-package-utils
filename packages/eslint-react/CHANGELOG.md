@@ -1,5 +1,11 @@
 # eslint-config-grisaia-react
 
+## 0.6.17
+
+### Patch Changes
+
+- bef7774: Fix ban-types were replaced by a new eslint rule
+
 ## 0.6.16
 
 ### Patch Changes
