@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepare": "pnpm build",
-    "build": "pnpm --filter=grisaia-package-builder build && pnpm --filter=eslint-config-grisaia-react --filter=eslint-config-grisaia-typescript  build"
+    "build": "pnpm --filter=grisaia-package-builder build"
   },
   "type": "module",
   "devDependencies": {
